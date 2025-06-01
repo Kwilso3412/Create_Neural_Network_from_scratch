@@ -5,18 +5,34 @@ I wanted to get a deeper understanding of what is happening under the hood inste
 
 ## Alright what problem are you trying to solve?
 Looking at the dataset I have three questions I want to learn:
-  - What genre do the people in a country like to listen too
-  - What are the total minutes streamed per platform of the users in a country
-  - What are by age what are the preferred listening times of users (Morning/Afternoon/Night)
+  1.  What genre do the people in a country like to listen too
+  2.  What are the total minutes streamed per platform of the users in a country
+  3.  What are by age what are the preferred listening times of users (Morning/Afternoon/Night)
 
 ## What dataset did you use to train the data?
 [Kaggle Dataset](https://www.kaggle.com/datasets/atharvasoundankar/global-music-streaming-trends-and-listener-insights?resource=download)
 
 ## Okay so tell more about the neural network.
+
+The core methodology is identical for all three, but the mathematical details adapt to classification vs regression. 
+
+This shows proper neural network design - same framework, different loss functions and activations based on the problem type.
+
 The neural network will have three layers
 - Oth layer:  input layer
 - 1st layer:  hidden layer
 - 2nd layer: output layer
+
+Input Processing: 
+- problem 1: One-hot
+- problem 2: One-hot
+- problem 3: Normalization
+
+Output Processing:
+- problem 1: One-hot
+- problem 2: Scaling
+- problem 3: One-hot
+
 
 ### TRAIN/VALIDATION/TEST METHODOLOGY:
 1. Data Split: 60% train / 20% validation / 20% test
