@@ -5,9 +5,9 @@ I wanted to get a deeper understanding of what is happening under the hood inste
 
 ## Alright what problem are you trying to solve?
 Looking at the dataset I have three questions I want to learn:
-  1.  What genre do the people in a country like to listen too
-  2.  What are the total minutes streamed per platform of the users in a country
-  3.  What are by age what are the preferred listening times of users (Morning/Afternoon/Night)
+  1.  What genre do the people in a country like to listen too.
+  2.  What countries will have increased listening time based on the amount of user engagement.
+  3.  What are by age what are the preferred listening times of users (Morning/Afternoon/Night).
 
 ## What dataset did you use to train the data?
 [Kaggle Dataset](https://www.kaggle.com/datasets/atharvasoundankar/global-music-streaming-trends-and-listener-insights?resource=download)
