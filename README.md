@@ -15,6 +15,8 @@ Looking at the dataset I have three questions I want to learn:
 ## Okay so tell more about the neural network.
 
 The core methodology is identical for all three, but the mathematical details adapt to classification vs regression. 
+- problem 1 and 3 are classication problems
+- problem 2 is a regression problem
 
 This shows proper neural network design - same framework, different loss functions and activations based on the problem type.
 
