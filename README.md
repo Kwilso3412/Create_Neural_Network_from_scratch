@@ -12,7 +12,7 @@ Looking at the dataset I have three questions I want to learn:
 ## What dataset did you use to train the data?
 [Kaggle Dataset](https://www.kaggle.com/datasets/atharvasoundankar/global-music-streaming-trends-and-listener-insights?resource=download)
 
-## Okay so tell more about the neural network
+## Okay so tell more about the neural network.
 The neural network will have three layers
 - Oth layer:  input layer
 - 1st layer:  hidden layer
