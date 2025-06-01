@@ -18,7 +18,7 @@ The core methodology is identical for all three, but the mathematical details ad
 
 This shows proper neural network design - same framework, different loss functions and activations based on the problem type.
 
-The neural network will have three layers
+The neural network will have three layers:
 - Oth layer:  input layer
 - 1st layer:  hidden layer
 - 2nd layer: output layer
