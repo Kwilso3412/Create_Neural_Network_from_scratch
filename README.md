@@ -45,17 +45,23 @@ Output Processing:
 
 ### KEY EQUATIONS USED:
 
-1. Forward Pass:
-  - z1 = X @ W1 + b1
-  - a1 = ReLU(z1) = max(0, z1)
-  - z2 = a1 @ W2 + b2
-  - a2 = softmax(z2)
-2. Loss Function:
-  - L = -Σ(y_true * log(y_pred)) / m
-3. Backpropagation:
-  - dL/dW2 = a1^T @ (a2 - y_true) / m
-  - dL/dW1 = X^T @ (dL/da1 * ReLU'(z1)) / m
-4. Weight Updates:
-  - W = W - learning_rate * dL/dW
-5. Early Stopping:
-  - Stop training when validation loss stops improving
+#### Classification:
+- Output: softmax(z2) → probabilities
+- Loss: -Σ(y_true * log(y_pred)) / m
+- Forward propagation for classification:
+  * z1 = X @ W1 + b1
+  * a1 = ReLU(z1)
+  * z2 = a1 @ W2 + b2
+  * a2 = softmax(z2)  # Probability distribution
+- Backprop: dz2 = a2 - y_true
+- Metric: accuracy
+  
+#### Regression:
+- Output: z2 → continuous values
+- Forward propagation for regression:
+  * z1 = X @ W1 + b1
+  * a1 = ReLU(z1)
+  * z2 = a1 @ W2 + b2  (Linear output, no activation)
+- Loss: Σ(y_true - y_pred)² / (2m)
+- Backprop: dz2 = (y_pred - y_true) / m
+- Metric: R² score
