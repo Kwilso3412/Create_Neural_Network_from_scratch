@@ -34,7 +34,7 @@ Output Processing:
 - problem 3: One-hot
 
 
-### TRAIN/VALIDATION/TEST METHODOLOGY:
+### TRAIN / VALIDATION / TEST METHODOLOGY:
 1. Data Split: 60% train / 20% validation / 20% test
 2. Training: Use train set to update weights
 3. Validation: Monitor performance, early stopping
