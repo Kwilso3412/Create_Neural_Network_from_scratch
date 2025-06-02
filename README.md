@@ -7,7 +7,7 @@ I wanted to get a deeper understanding of what is happening under the hood inste
 Looking at the dataset I have three questions I want to learn:
   1.  What genre do the people in a country like to listen too.
   2.  What are individual user listening times based on age and engagement behaviors
-  3.  What are by age what are the preferred listening times of users (Morning/Afternoon/Night).
+  3.  What are by age what are the preferred listening times of users (Morning/Afternoon/Night). **(Best performing model)**
 
 ## What dataset did you use to train the data?
 [Kaggle Dataset](https://www.kaggle.com/datasets/atharvasoundankar/global-music-streaming-trends-and-listener-insights?resource=download)
