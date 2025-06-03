@@ -1,4 +1,4 @@
-# Create_Neural_network_from_scratch
+# Create_Neural_Network_from_scratch
 
 ## Why would you do this? Tensorflow and Pytorch already exist.
 I wanted to get a deeper understanding of what is happening under the hood instead of just looking at the higher level concepts of machine learning and neural networks. 
